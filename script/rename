@@ -1,0 +1,35 @@
+#!/bin/bash
+# CAUTION: THIS SCRIPT DELETES THINGS (removes the `logo-` prefix)
+
+SOURCE="./assets"
+DESTINATION="./renamed/brand_icons"
+
+# Remove destination folder
+rm -rf "$DESTINATION"
+
+# Make the destination folder
+mkdir -p "$DESTINATION"
+
+# Recursively copy assets to new folder
+cp -r "$SOURCE/"* "$DESTINATION"
+
+# Move into copy folder
+cd "$DESTINATION" || exit
+
+# Remove 'logo-' prefix from filenames
+# for filename in logo-*.svg; do
+#     new_filename="${filename#logo-}"
+#     mv "$filename" "$new_filename"
+# done
+
+# Add 'af-' prefix to filenames
+for filename in *.svg; do
+    new_filename="af-$filename"
+    mv "$filename" "$new_filename"
+done
+
+# Print results
+echo "Renamed logo-*.svg files."
+
+# Finish
+echo '✨ all done!'
