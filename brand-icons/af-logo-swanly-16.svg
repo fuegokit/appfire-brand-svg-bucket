@@ -1,5 +1,5 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.3333 2H1.33325V5.33333H11.3333V2Z" fill="currentColor"/>
-<path d="M14.6666 6.33333H4.66658V9.66667H14.6666V6.33333Z" fill="currentColor"/>
-<path d="M11.3333 10.6667H1.33325V14H11.3333V10.6667Z" fill="currentColor"/>
+<path d="M11.3333 2H1.33325V5.33333H11.3333V2Z" style="fill:var(--ds-icon, #44546F);"/>
+<path d="M14.6666 6.33333H4.66658V9.66667H14.6666V6.33333Z" style="fill:var(--ds-icon, #44546F);"/>
+<path d="M11.3333 10.6667H1.33325V14H11.3333V10.6667Z" style="fill:var(--ds-icon, #44546F);"/>
 </svg>
