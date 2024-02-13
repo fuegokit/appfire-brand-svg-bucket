@@ -1,3 +1,30 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M14.6666 2H1.33325V4H14.6666V2ZM14.6666 5.33333H4.66659V7.33333H14.6666V5.33333ZM3.33325 5.33333V14H1.33325V5.33333H3.33325ZM14.6666 8.66667H4.66659V10.6667H14.6666V8.66667ZM4.66659 12H14.6666V14H4.66659V12Z" fill="currentColor"/>
+  <style>
+    <!-- light -->
+    html[data-color-mode="light"][data-theme~="light:light"],html[data-color-mode="dark"][data-theme~="dark:light"] {
+      --ds-icon: #44546F;
+      path {
+        fill: var(--ds-icon, #44546F);
+      }
+    }
+    <!-- dark -->
+    html[data-color-mode="light"][data-theme~="light:dark"], html[data-color-mode="dark"][data-theme~="dark:dark"] {
+      --ds-icon: #9FADBC;
+      path {
+        fill: var(--ds-icon, #9FADBC);
+      }
+    }
+    <!-- fallback -->
+    path {
+      fill: var(--ds-icon, #44546F);
+    }
+    
+    <!-- fallback -->
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: var(--ds-icon, #9FADBC);
+      }
+    }
+  </style>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.6666 2H1.33325V4H14.6666V2ZM14.6666 5.33333H4.66659V7.33333H14.6666V5.33333ZM3.33325 5.33333V14H1.33325V5.33333H3.33325ZM14.6666 8.66667H4.66659V10.6667H14.6666V8.66667ZM4.66659 12H14.6666V14H4.66659V12Z"/>
 </svg>
