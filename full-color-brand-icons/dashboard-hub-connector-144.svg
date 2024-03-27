@@ -1,0 +1,25 @@
+<svg width="144" height="144" viewBox="0 0 144 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_174_41)">
+<mask id="mask0_174_41" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="144" height="144">
+<path d="M144 0H0V144H144V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_174_41)">
+<path d="M120.001 1.80005H24.0008C11.7401 1.80005 1.80078 11.7393 1.80078 24V120C1.80078 132.261 11.7401 142.2 24.0008 142.2H120.001C132.262 142.2 142.201 132.261 142.201 120V24C142.201 11.7393 132.262 1.80005 120.001 1.80005Z" fill="#1C1B1C"/>
+<path d="M120 3.6C131.248 3.6 140.4 12.752 140.4 24V120C140.4 131.248 131.248 140.4 120 140.4H24C12.752 140.4 3.6 131.248 3.6 120V24C3.6 12.752 12.752 3.6 24 3.6H120ZM120 0H24C10.746 0 0 10.746 0 24V120C0 133.254 10.746 144 24 144H120C133.254 144 144 133.254 144 120V24C144 10.746 133.254 0 120 0Z" fill="#FF996C"/>
+<path d="M84 36C97.2548 36 108 46.7452 108 60C108 73.2548 97.2548 84 84 84H60V60V36L84 36Z" fill="#FFF6B6"/>
+<path d="M60 108C46.7452 108 36 97.2548 36 84C36 70.7452 46.7452 60 60 60H84V84V108L60 108Z" fill="#FF996C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M60 60V84H84L84 60L60 60Z" fill="url(#paint0_linear_174_41)"/>
+<rect x="92" y="92" width="16" height="16" fill="#FF996C"/>
+<rect x="36" y="36" width="16" height="16" fill="#FFF6B6"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_174_41" x1="84" y1="60" x2="60" y2="84" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF986C"/>
+<stop offset="1" stop-color="#FFF6B6"/>
+</linearGradient>
+<clipPath id="clip0_174_41">
+<rect width="144" height="144" fill="white"/>
+</clipPath>
+</defs>
+</svg>

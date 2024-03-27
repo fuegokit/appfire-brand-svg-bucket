@@ -74,7 +74,7 @@
         "name": { "value": "..." },
         "url": "...",
         "icon": {
-          "url": "/.../link-to/your-product-icon-24.svg"
+          "url": "https://raw.githubusercontent.com/fuegokit/appfire-design-systems-brand-svg/main/full-color-brand-icons/okr-for-jira-24.svg"
         }
       }
     ]
